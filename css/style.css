@@ -1,0 +1,60 @@
+h3:first-child {
+  color: pink;
+}
+p:nth-child(2) {
+  color: black;
+}
+#greycol {
+  color: #808080;
+}
+div > p {
+  color: red;
+}
+h3 + p {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+
+/*Start of second task*/
+.first-day:hover{
+    background-color: #337279;
+    border-radius: 15px;
+}
+.second-day:hover {
+    background-color: #337279;
+    border-radius: 15px;
+}
+
+.third-day:hover {
+    background-color: #337279;
+    border-radius: 15px;
+}
+
+.fourth-day:hover {
+    background-color: #337279;
+    border-radius: 15px;
+}
+
+.fifth-day:hover {
+    background-color: #337279;
+    border-radius: 15px;
+}
+
+.links:hover{
+    color: rgb(176, 131, 71);
+}
+.links:visited{
+    color: #3d4320;
+}
+
+.monday:nth-child(1){
+    font-size: x-large;
+}
+.second-day :last-child{
+    font-style: italic;
+}
+.wednesday :nth-child(even){
+    color: #292943;
+}
