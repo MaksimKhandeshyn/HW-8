@@ -20,47 +20,57 @@ h3:first-child {
     border-radius: 15px;
 }
 .second-day{
-    background-color: #337279;
+    background-color: #1c914c;
     border-radius: 15px;
 }
 
 .third-day{
-    background-color: #337279;
+    background-color: #661f58;
     border-radius: 15px;
 }
 
 .fourth-day{
-    background-color: #337279;
+    background-color: #430c85;
     border-radius: 15px;
 }
 
 .fifth-day{
-    background-color: #337279;
+    background-color: #bd1f2a;
     border-radius: 15px;
-}
-
-.second-day .links:hover{
-    color: rgb(176, 131, 71);
-}
-.friday .links:visited{
-    color: #3d4320;
 }
 
 .monday :nth-child(1){
     font-size: x-large;
 }
 
+.first-day .links:active{
+  color: yellow;
+}
+
+.second-day .links:hover{
+    color: rgb(176, 131, 71);
+}
+
 .second-day :last-child{
     font-style: italic;
 }
-.wednesday :nth-child(even){
+
+.wednesday :nth-child(odd){
     color: #292943;
+}
+
+.fourth-day:focus{
+  color: red;
+}
+
+.friday .links:visited{
+    color: #3d4320;
 }
 
 .days :not(:nth-child(odd)){
   font-size: 20px;
 }
-.first-day :first-child{
+.first-day:first-child{
   background-color: #292943;
 }
 .tuesday :nth-child(-n + 2){
