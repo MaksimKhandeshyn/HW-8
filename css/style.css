@@ -1,16 +1,13 @@
 h3:first-child {
   color: pink;
 }
-p:nth-child(2) {
-  color: black;
-}
 #greycol {
   color: #808080;
 }
-div > p {
+.text-box > :nth-child(5) {
   color: red;
 }
-h3 + p {
+.text-box > :nth-child(7) {
   color: green;
 }
 .yellow {
@@ -18,43 +15,54 @@ h3 + p {
 }
 
 /*Start of second task*/
-.first-day:hover{
+.first-day{
     background-color: #337279;
     border-radius: 15px;
 }
-.second-day:hover {
-    background-color: #337279;
-    border-radius: 15px;
-}
-
-.third-day:hover {
+.second-day{
     background-color: #337279;
     border-radius: 15px;
 }
 
-.fourth-day:hover {
+.third-day{
     background-color: #337279;
     border-radius: 15px;
 }
 
-.fifth-day:hover {
+.fourth-day{
     background-color: #337279;
     border-radius: 15px;
 }
 
-.links:hover{
+.fifth-day{
+    background-color: #337279;
+    border-radius: 15px;
+}
+
+.second-day .links:hover{
     color: rgb(176, 131, 71);
 }
-.links:visited{
+.friday .links:visited{
     color: #3d4320;
 }
 
-.monday:nth-child(1){
+.monday :nth-child(1){
     font-size: x-large;
 }
+
 .second-day :last-child{
     font-style: italic;
 }
 .wednesday :nth-child(even){
     color: #292943;
+}
+
+.days :not(:nth-child(odd)){
+  font-size: 20px;
+}
+.first-day :first-child{
+  background-color: #292943;
+}
+.tuesday :nth-child(-n + 2){
+  text-decoration: line-through;
 }
