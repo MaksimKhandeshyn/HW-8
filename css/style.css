@@ -59,7 +59,7 @@ h3:first-child {
     color: #292943;
 }
 
-.fourth-day:focus{
+.fourth-day li :focus{
   color: red;
 }
 
@@ -70,7 +70,7 @@ h3:first-child {
 .days :not(:nth-child(odd)){
   font-size: 20px;
 }
-.first-day:first-child{
+.first-day li:first-child{
   background-color: #292943;
 }
 .tuesday :nth-child(-n + 2){
